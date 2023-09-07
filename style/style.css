@@ -1,0 +1,199 @@
+/* Réinitialiser les styles par défaut du navigateur */
+/*Responcive*/
+/* Media query pour la navbar responsive */
+body, figure, h1, h2, h3, p, img, ul, ol, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Appliquer une police de caractères globale */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Appliquer un arrière-plan et une couleur de texte pour le header */
+  header {
+    background-color:rgb(14, 14, 11);
+    color: rgb(235, 235, 235);
+    padding: 10px;
+  }
+  
+  /* Style de base pour la navbar */
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #3392df51; /* Couleur de fond de la navbar */
+    overflow: hidden; /* Pour gérer les éléments qui débordent de la navbar */
+    display: inline-block;
+  }
+  
+  /* Style pour les liens de la navbar */
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    display: block; /* Pour que les liens prennent toute la largeur de la navbar */
+    color: #fff; /* Couleur du texte des liens */
+    text-align: center; /* Pour centrer le texte dans les liens */
+    margin: 10px 8px;
+    padding: 12px 15px; /* Espacement du texte par rapport aux bords de la navbar */
+    text-decoration: none; /* Pour enlever la décoration par défaut des liens */
+    transition: color 0.3s; /* Animation de transition pour la couleur du texte */
+  }
+  
+  /* Style pour les liens actifs de la navbar */
+  nav a.active {
+    background-color: #333; /* Couleur de fond pour les liens actifs */
+  }
+  
+  /* Style pour les liens au survol de la souris */
+  nav a:hover {
+    color: #ed1c24; /* Couleur du texte au survol de la souris */
+  }
+  
+  /* Login*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+form {
+    width: 300px;
+    margin: 100px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 3px;
+}
+
+form input[type="submit"] {
+    background-color: #008CBA;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #007A99;
+}
+
+.password-toggle {
+    position: relative;
+}
+
+.password-toggle input[type="password"] {
+    padding-right: 40px;
+}
+
+.password-toggle .toggle-btn {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #008CBA;
+}
+
+.password-toggle .toggle-btn:hover {
+    color: #007A99;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(236, 236, 231);
+}
+
+form {
+  width: 300px;
+  margin: 100px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 3px;
+}
+
+form input[type="submit"] {
+  background-color: #008CBA;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #007A99;
+}
+
+.password-toggle {
+  position: relative;
+}
+
+.password-toggle input[type="password"] {
+  padding-right: 40px;
+}
+
+.password-toggle .toggle-btn {
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #008CBA;
+}
+
+.password-toggle .toggle-btn:hover {
+  color: #007A99;
+}
+/*index*/
+/*Responcive*/
+/* Media query pour la navbar responsive */
+@media screen and (max-width: 1280px) {
+    /* Mise en page du contenu principal */
+    main {
+      padding: 20px;
+    }
+    
+    /* Ajout de styles spécifiques pour les pages incluses */
+    .main-content {
+      margin-bottom: 20px; /* Ajout d'une marge en bas pour l'espace */
+    }
+    
+    .footer {
+      text-align: center;
+      background-color: #F8B195;
+      padding: 10px;
+      color: #fff;
+    }
+}
