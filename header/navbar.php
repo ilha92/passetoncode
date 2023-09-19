@@ -14,11 +14,12 @@
 <body class="centered">
 <header>
     <nav>
-        <div class="logo">
-            <a href="../index.php"><i class="ri-pie-chart-line"></i>Passe ton code</a>
-        </div>
-        <div class="menu-toggle">
-            <img src="../image/menu-btn.png" alt="menu hamburger" class="menu-hamburger">
+        <div class="logo"><header> 
+     <h1 style="display: flex; align-items: center;">
+                <a href="../index.php">
+                    <img src="/images/passetoncode-logo.png" width="192" height="40" style="margin-right: 10px;" alt="Logo Passe-ton-code">
+                </a>
+</header>
         </div>
         <ul class="nav-links">
             <li><a href="../pages/accueil.php">Accueil</a></li>
@@ -27,7 +28,9 @@
             <li><a href="../pages/panneaux.php">Panneaux</a></li>
             <li><a href="../pages/examen.php">Examen</a></li>
             <li><a href="../pages/auto.php">Auto-ecole</a></li>
-            <li><a href="../pages/avis.php">Donner son avis</a></li>
+            <li><a href="../pages/contact.php">Contacter</a></li>
+            <li><a href="../pages/compte.php"><i class="ri-user-line"></i>Compte</a></li>
+            <li><a href="../pages/avis.php"><i class="ri-pencil-line"></i>Donner son avis</a></li>
             <?php
             // Vérifier si l'utilisateur est connecté
             if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == true) {
@@ -38,6 +41,7 @@
             }
             ?>
         </ul>
+    </nav>
     </nav>
 </header>
 <script>

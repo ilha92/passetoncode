@@ -9,6 +9,7 @@
     <header>
         <?php require_once('../header/navbar.php'); ?>
     </header>
+    <br><br><br><br>
     <section class="video section section-text-light section-video section-center mt-none" data-video-path="https://static.passetoncode.fr/sitev2/video/video-code-de-la-route" data-plugin-video-background="" data-plugin-options="{&quot;posterType&quot;: &quot;jpg&quot;, &quot;position&quot;: &quot;50% 50%&quot;, &quot;overlay&quot;: false}">
     <div style="position: absolute; z-index: -1; inset: 0px; overflow: hidden; background-size: cover; background-color: transparent; background-repeat: no-repeat; background-position: 50% 50%; background-image: none;">
         <video autoplay="" loop="" muted="" style="margin: auto; position: absolute; z-index: -1; top: 50%; left: 50%; transform: translate(-50%, -50%); visibility: visible; opacity: 1; width: auto; height: 582px;">
@@ -31,20 +32,13 @@
                     <p class="mb-none">Passetoncode.fr est un site d'entraînement à l'examen du code de la route entièrement gratuit. Testez vous</p>
                     <p>sur 40 questions dans les conditions réelles d'examen ou par séries de 20 questions sur un thème de votre choix.</p>
                     <p>Vous apprenez à votre rythme et pouvez suivre votre progression grâce à des statistiques détaillées.</p><br>
-                    <a href="/nostests_gratuit_serie.php" class="btn btn-3d btn-primary btn-lg mr-xs">Testez moi !</a>
+                    <a href="../index.html" class="btn btn-3d btn-primary btn-lg mr-xs">Testez moi !</a>
                     <a href="../acces/register.php" class="btn btn-3d btn-secondary btn-lg">Je m'inscris</a>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<h2 style="clear: both;">S'entrainer au code de la route</h2>
-<p style="clear: both;">La création de votre compte vous permettra d'avoir accès à toutes les fonctionnalités proposées par passetoncode.fr
- (séries thématiques, tests de 40 questions, cours détaillés...). Elle est gratuite et ne prend pas plus de 2 minutes !</p>
-<br style="clear: both;">
-<img src="../images/entrainez-vous-en-ligne-avec-tests-de-code-de-la-route-gratuits-et-illimites (1).jpg" alt="" srcset="" style="clear: both;">
-<br style="clear: both;">
-<p style="clear: both;">N'hésitez plus, lancez un test de code de la route et évaluez vos connaissances !</p>
-    </section>
+   </section>
 </body>
 </html>

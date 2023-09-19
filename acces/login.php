@@ -30,9 +30,8 @@ session_start();
 
 <body>
     <header>
-        <h1>Cestino Pizza</h1>
         <?php require_once('../header/navbar.php'); ?>
-     </header>
+    </header>
      <br>
      <form method="POST" action="">
     <h1>Connexion</h1>

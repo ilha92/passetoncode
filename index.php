@@ -7,22 +7,19 @@ session_start();
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Bienvenue sur Cestino Pizza, le meilleur endroit pour déguster de délicieuses pizzas. Venez découvrir notre menu varié et nos offres spéciales. Commandez en ligne ou rendez-vous dans l'un de nos restaurants.">
-<meta name="keywords" content="Cestino Pizza, pizzas, restaurant, commande en ligne, menu, offres spéciales">
+<meta name="description" content="Bienvenue sur Passetoncode.fr, le meilleur endroit pour endroit pour apprendre reviser et voir les passage de code a coter de chez toi.">
+<meta name="keywords" content="Passe ton code est site gratuits pour apprendre le code de la route">
 <meta name="author" content="Passetoncode">
 <title>Passetoncode - Le meilleurs site pour passe son code</title>
     <link rel="stylesheet" type="text/css" href="../style/style.css">
-    <link rel="icon" type="image/x-icon" href="panier.ico">
+    <link rel="icon" type="image/x-icon" href="../images/passetoncode-logo.png">
 </head>
 <body>
-     <header>
-     <h1 style="display: flex; align-items: center;">
-    <img src="../image/pizza/panier.png" width="80" height="60" alt="Logo Pizza Shop" style="margin-right: 10px;">Passetoncode
 </h1>
-
+ <header>
         <?php include_once 'header/navbar.php'; ?>
         <?php require_once('footer.php'); ?>
-     </header>
+ </header>
     <main>
         <?php
         if (isset($_GET['page'])) {
