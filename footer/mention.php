@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mentions Légales - Auto-École XYZ</title>
+    <title>Mentions Légales - Auto-École</title>
     <link rel="stylesheet" href="../style/style.css">
 </head>
 <body>
@@ -15,10 +15,10 @@
     <main>
         <section class="legal-notice">
             <h2>Informations Légales</h2>
-            <p>Raison sociale : Auto-École XYZ</p>
+            <p>Raison sociale : Auto-École</p>
             <p>Adresse : 123 Rue des Élèves, 75000 Ville</p>
             <p>Téléphone : +33 (0)1 23 45 67 89</p>
-            <p>E-mail : iliashamel041@gmail.com</p>
+            <p>E-mail : iliashamel041@gmail.com</p>            
             <p>Numéro d'inscription : XXXXXXXXX</p>
             <p>Directeur de publication : Hamel Ilias</p>
         </section>
