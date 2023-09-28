@@ -4,48 +4,129 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tests-de-code-de-la-route-gratuit-en-ligne</title>
-    <style>
-    .header {
-    display: flex; /* Permet aux éléments d'être alignés horizontalement */
-    align-items: center; /* Aligne verticalement les éléments sur le centre */
-    margin-bottom: 20px; /* Espace entre le titre et le contenu suivant */
+<style>
+.header {
+    background: url('../images/route.jpeg') no-repeat left center;
+    background-size: 100% auto; /* Modifiez cette ligne */
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    height: 100px;
 }
 
-.header img {
-    margin-right: 10px; /* Espace à droite de l'image */
-    width: 50px; /* Largeur de l'image */
-    height: auto; /* Hauteur automatique pour conserver les proportions */
+.image-text {
+    flex: 1;
+    padding: 0px;
+    display: flex;
+    align-items: center;
 }
-    
+
+.image-text img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.image-text h1 {
+    font-size: 24px;
+    margin: 0;
+}
 .test {
-    display: flex; /* Permet aux éléments d'être alignés horizontalement */
-    align-items: center; /* Alignement vertical au centre */
-    margin-bottom: 20px; /* Espace sous l'élément */
+    background: url('../images/autoroute1.jpg');
+    background-size: 750px 283px; /* Dimensions spécifiques de l'image de fond */
+    background-repeat: no-repeat;
+    position: relative; /* Pour positionner les éléments à l'intérieur de la div */
+    text-align: center; /* Pour centrer le texte et les boutons horizontalement */
+    color: white; /* Couleur du texte, choisissez celle qui convient à votre image de fond */
+    width: 750px; /* Définir la largeur à 750 pixels */
+    height: 283px; /* Définir la hauteur à 283 pixels */
+    margin: auto;
+  text-align: center;
 }
 
-.test .content {
-    display: flex; /* Alignement horizontal */
-    align-items: center; /* Alignement vertical au centre */
+
+.testh2 {
+    padding-top: 20px; /* Espacement par rapport au haut de la div */
 }
 
-.test img {
-    margin-right: 10px; /* Espace à droite de l'image */
-    width: 150px; /* Largeur de l'image (ajustez selon vos besoins) */
-    height: auto; /* Hauteur automatique pour conserver les proportions */
+/* Style des boutons */
+.btn-rectangular {
+    display: inline-block;
+    margin: 20px 10px; /* Espacement entre les boutons */
+    padding: 10px 20px; /* Marge interne des boutons */
+    text-decoration: none;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
 }
 
-.text-container {
-    border: 1px solid #ccc; /* Une bordure de 1 pixel solide de couleur grise (#ccc) */
-    padding: 10px; /* Espace à l'intérieur de la bordure */
-    flex: 1; /* Le texte prend tout l'espace restant dans le conteneur */
+/* Style des boutons au survol */
+.btn-rectangular:hover {
+    background-color: #0056b3;
 }
-.text-containers {
-    border: 1px solid #ccc; /* Une bordure de 1 pixel solide de couleur grise (#ccc) */
-    padding: 10px; /* Espace à l'intérieur de la bordure */
-    flex: 1; /* Le texte prend tout l'espace restant dans le conteneur */
-    background-color: #bd0e0e;
+
+.mySlides {
+  display: none;
 }
-    </style>
+
+img {
+  vertical-align: middle;
+}
+
+.slideshow-container {
+  position: relative;
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: red;
+  font-weight: bold;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+.gratuit{
+    padding-top:20px;
+    padding-bottom:20px;
+    color: white;
+    width:900px ;
+    left:600px;
+    background-color:red;
+    margin: auto;
+  text-align: center;
+}
+.apprenez{
+    padding-top:20px;
+    padding-bottom:20px;
+    color: white;
+    width:600px ;
+    left:300px;
+    color:black;
+    margin: auto;
+  text-align: center;
+}
+</style>
 </head>
 <body>
 <header>
@@ -53,37 +134,80 @@
 </header>
 <br><br>
 <div class="header">
-    <img src="../images/passetoncode-mini.png" alt="">
-    <h1>Tests de code de la route</h1>
-</div>
-
-    <br>
-    <div>
-    <h3>Nos tests code de la route</h3>
-    <p>Pour avoir accès aux tests en ligne proposés par PASSETONCODE.FR, il faut posséder un compte et être connecté.
- Vous pouvez créer votre compte GRATUITEMENT en cliquant sur le bouton « JE M'INSCRIS » ci-dessous.
- Une fois votre compte créé, vous aurez un accès illimité aux tests de code de la route (séries d'examen et exercices thématiques)
-  et vous pourrez suivre votre progression grâce à des statistiques détaillées</p>
- <a href="../index.html" class="btn btn-3d btn-primary btn-lg mr-xs">Testez moi !</a>
-<a href="../acces/register.php" class="btn btn-3d btn-secondary btn-lg">Je m'inscris</a>
-</div>
-<h2>Tests de code de la route gratuit</h2>
-<br>
-<h4>Apprenez et testez votre code de la route gratuitement :</h4>
-<div class="test">
-    <div class="content">
-        <img src="../images/entrainez-vous-en-ligne-avec-tests-de-code-de-la-route-gratuits-et-illimites (1).jpg" alt="">
-        <div class="text-container">
-            <p>Passe Ton Code vous apporte l'aide dont vous avez besoin dans votre apprentissage
-                 du code de la route en vous offrant un accès gratuit et illimité aux séries d'entraînement (examens et thématiques), 
-                 aux cours de code de la route et aux panneaux de signalisation. N'attendez plus, créez votre compte en 2 minutes
-                  et commencez à réviser le code de la route !</p>
-        </div>
+    <div class="image-text">
+        <img src="../images/passetoncode-mini.png" alt="">
+        <h1>Tests de code de la route</h1>
     </div>
-    <a class="text-containers" href="../index.html">Lancer un test !</a>
 </div>
+<div class="test">
+    <h2 class="testh2">Nos tests code de la route</h2>
+    <p>Pour avoir accès aux tests en ligne proposés par PASSETONCODE.FR, il faut posséder un compte et être connecté.
+        Vous pouvez créer votre compte GRATUITEMENT en cliquant sur le bouton « JE M'INSCRIS » ci-dessous.
+        Une fois votre compte créé, vous aurez un accès illimité aux tests de code de la route (séries d'examen et exercices thématiques)
+        et vous pourrez suivre votre progression grâce à des statistiques détaillées</p>
+    <a href="../index.html" class="btn btn-3d btn-primary btn-lg mr-xs btn-rectangular">Testez moi !</a>
+    <a href="../acces/register.php" class="btn btn-3d btn-secondary btn-lg btn-rectangular">Je m'inscris</a>
+</div>
+<br><br>
+<h2 class="gratuit">Tests de code de la route gratuit</h2>
+<br>
+<h2 class="apprenez">Apprenez et testez votre code de la route gratuitement :</h2>
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <img src="../images/entrainez-vous-en-ligne-avec-tests-de-code-de-la-route-gratuits-et-illimites (1).jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="../images/panneaux-de-signalisation-routiere.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="../images/progression-examen-code-de-la-route.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="../images/tests-de-code-de-la-route.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="../images/fiche-revision-du-code-de-la-route (1).jpg" style="width:100%">
+  </div>
 
 
+  <!-- Ajoutez autant de diapositives que vous le souhaitez -->
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+    <a class="text-containers" href="../index.html">Lancer un test !</a>
+    
+    <script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  
+  if (n > slides.length) {
+    slideIndex = 1;
+  }
+
+  if (n < 1) {
+    slideIndex = slides.length;
+  }
+
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+
+  slides[slideIndex - 1].style.display = "block";
+}
+</script>
 <br><br>
 <?php require_once('../footer.php'); ?>
 </body>
