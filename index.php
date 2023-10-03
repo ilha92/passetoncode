@@ -3,23 +3,24 @@ session_start();
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Bienvenue sur Passetoncode.fr, le meilleur endroit pour endroit pour apprendre reviser et voir les passage de code a coter de chez toi.">
-<meta name="keywords" content="Passe ton code est site gratuits pour apprendre le code de la route">
-<meta name="author" content="Passetoncode">
-<title>Passetoncode - Le meilleurs site pour passe son code</title>
-    <link rel="stylesheet" type="text/css" href="../style/style.css">
-    <link rel="icon" type="image/x-icon" href="../images/passetoncode-logo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passetoncode - Le meilleur site pour passer son code</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="icon" type="image/x-icon" href="images/passetoncode-logo.png">
+    <style>
+        body {
+            background-image: url('images/ecranaccueil.jpg');
+            background-repeat: no-repeat; /* Assurez-vous que l'image ne se répète pas */
+            background-size: cover; /* Étirez l'image pour qu'elle couvre toute la page */
+            background-attachment: fixed; /* Fixez l'image en arrière-plan pour qu'elle reste en place lorsque vous faites défiler la page */
+        }
+    </style>
 </head>
 <body>
-</h1>
- <header>
-        <?php include_once 'header/navbar.php'; ?>
-        <?php require_once('footer.php'); ?>
- </header>
+    <?php include_once('header/navbar.php'); ?>
     <main>
         <?php
         if (isset($_GET['page'])) {
@@ -44,14 +45,14 @@ session_start();
                     include_once 'pages/auto.php';
                     break;
                 case 'avis':
-                        include_once 'pages/avis.php';
-                        break;
+                    include_once 'pages/avis.php';
+                    break;
                 default:
                     include_once 'pages/accueil.php';
                     break;
             }
         } else {
-            include_once 'pages/accueil.php';
+            include_once '/pages/accueil.php';
         }
         ?>
     </main>

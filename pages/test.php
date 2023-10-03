@@ -4,136 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tests-de-code-de-la-route-gratuit-en-ligne</title>
-<style>
-.header {
-    background: url('../images/route.jpeg') no-repeat left center;
-    background-size: 100% auto; /* Modifiez cette ligne */
-    display: flex;
-    align-items: center;
-    color: white;
-    width: 50%;
-    margin: 0;
-    padding: 0;
-    height: 100px;
-}
-
-.image-text {
-    flex: 1;
-    padding: 0px;
-    display: flex;
-    align-items: center;
-}
-
-.image-text img {
-    width: 50px;
-    height: auto;
-    margin-right: 10px;
-}
-
-.image-text h1 {
-    font-size: 24px;
-    margin: 0;
-}
-.test {
-    background: url('../images/autoroute1.jpg');
-    background-size: 750px 283px; /* Dimensions spécifiques de l'image de fond */
-    background-repeat: no-repeat;
-    position: relative; /* Pour positionner les éléments à l'intérieur de la div */
-    text-align: center; /* Pour centrer le texte et les boutons horizontalement */
-    color: white; /* Couleur du texte, choisissez celle qui convient à votre image de fond */
-    width: 750px; /* Définir la largeur à 750 pixels */
-    height: 283px; /* Définir la hauteur à 283 pixels */
-    margin: auto;
-  text-align: center;
-}
-
-
-.testh2 {
-    padding-top: 20px; /* Espacement par rapport au haut de la div */
-}
-
-/* Style des boutons */
-.btn-rectangular {
-    display: inline-block;
-    margin: 20px 10px; /* Espacement entre les boutons */
-    padding: 10px 20px; /* Marge interne des boutons */
-    text-decoration: none;
-    color: #fff;
-    background-color: #007BFF;
-    border: none;
-    border-radius: 5px;
-    font-size: 18px;
-}
-
-/* Style des boutons au survol */
-.btn-rectangular:hover {
-    background-color: #0056b3;
-}
-
-.mySlides {
-  display: none;
-}
-
-img {
-  vertical-align: middle;
-}
-
-.slideshow-container {
-  position: relative;
-  max-width: 700px;
-  margin: auto;
-  text-align: center;
-}
-
-.prev,
-.next {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: red;
-  font-weight: bold;
-  font-size: 30px;
-  cursor: pointer;
-}
-
-.prev {
-  left: 0;
-}
-
-.next {
-  right: 0;
-}
-.gratuit{
-    padding-top:20px;
-    padding-bottom:20px;
-    color: white;
-    width:900px ;
-    left:600px;
-    background-color:red;
-    margin: auto;
-  text-align: center;
-}
-.apprenez{
-    padding-top:20px;
-    padding-bottom:20px;
-    color: white;
-    width:600px ;
-    left:300px;
-    color:black;
-    margin: auto;
-  text-align: center;
-}
-</style>
+    <link rel="stylesheet" type="text/css" href="../style/style.css">
 </head>
 <body>
-<header>
-     <?php require_once('../header/navbar.php'); ?>
-</header>
-<br><br>
-<div class="header">
+<?php require_once('../header/navbar.php'); ?>
+<br>
+<div class="head">
     <div class="image-text">
         <img src="../images/passetoncode-mini.png" alt="">
         <h1>Tests de code de la route</h1>
@@ -152,8 +28,9 @@ img {
 <h2 class="gratuit">Tests de code de la route gratuit</h2>
 <br>
 <h2 class="apprenez">Apprenez et testez votre code de la route gratuitement :</h2>
-<div class="slideshow-container">
-  <div class="mySlides fade">
+<div class="content-right">
+    <div class="slideshow-container">
+        <div class="mySlides fade">
     <img src="../images/entrainez-vous-en-ligne-avec-tests-de-code-de-la-route-gratuits-et-illimites (1).jpg" style="width:100%">
   </div>
 
@@ -178,9 +55,44 @@ img {
 
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
   <a class="next" onclick="plusSlides(1)">&#10095;</a>
+ </div>
 </div>
-    <a class="text-containers" href="../index.html">Lancer un test !</a>
-    
+<div class="content-center-right">
+        <div class="code belgian-flag">
+            <!-- Contenu de la classe "code" ici -->
+            <p class="pt-md -pr-xlg -pl-xlg mb-sm">Passe Ton Code vous apporte l'aide dont vous avez besoin dans votre apprentissage du code de la route en vous offrant un accès gratuit et illimité aux séries d'entraînement (examens et thématiques), aux cours de code de la route et aux panneaux de signalisation. N'attendez plus, créez votre compte en 2 minutes et commencez à réviser le code de la route !</p>
+            <a href="/index.html" class="btn btn-3d btn-primary btn-lg center-block mb-xlg mt-lg">lancer un test !</a>
+        </div>
+    </div>
+</div>
+<br><br><br>
+<h1 class="testh1">Passe ton code c'est quoi</h1>
+<br><br>
+<div class="row">
+        <div class="col-lg-3">
+            <img alt="" class="img-responsive img-thumbnail center-block" src="https://static.passetoncode.fr/sitev2/img/telecommande.png">
+            <p class="p-lg">Des tests de 40 questions portant sur les différents thèmes du code la route et des tests 20 questions portant sur un thème du code de la route de votre choix.</p>
+        </div>
+        <div class="col-lg-3">
+            <img alt="" class="img-responsive img-thumbnail center-block" src="https://static.passetoncode.fr/sitev2/img/panneaux.png">
+            <p class="p-lg">Des cours sur le permis de conduire, les distances de sécurité, le stationnement... Un accès libre aux panneaux de signalisation et à leur définition.</p>
+        </div>
+        <div class="col-lg-3">
+            <img alt="" class="img-responsive img-thumbnail center-block" src="https://static.passetoncode.fr/sitev2/img/stats.png">
+            <p class="p-lg">Votre compte vous permet de suivre votre progression aux tests de code de la route avec des statistiques intelligentes permettant de cibler vos erreurs.</p>
+        </div>
+        <div class="col-lg-3">
+            <img alt="" class="img-responsive img-thumbnail center-block" src="https://static.passetoncode.fr/sitev2/img/gratuit.gif">
+            <p class="p-lg">Code de la route 100% gratuit ! Révisez votre code de la route sans compter, les tests de code de la route sont gratuits tout comme votre inscription !</p>
+        </div>
+    </div>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mb-md mt-md" style="background-color:#333333;">
+    <h2 class="inverted inverted-tertiary mt-md mb-sm">Histoire du code de la route</h2>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <img class="info" style="float:left;margin-right:20px;margin-top:10px;height:110px;" alt="info code de la route" src="https://static.passetoncode.fr/sitev2/img/info-code-de-la-route.png">
+        <p class="colonel">Le code de la route fait son apparition en France en 1921 avec une première version qui tente de concilier les différents usagers de la route (véhicules à moteurs, charretiers, piétons...). Le code de la route tel que nous le connaissons (davantage porté sur la sécurité routière), est rédigé en 1958. Le code de la route est un texte réactualisé en permanence, au fur et à mesure de la prise de conscience des dangers liés à la circulation automobile (vitesse, alcool...), de l'évolution des automobiles et des voies de circulation. Le code de la route bénéficie d'une réécriture en 2000 visant à instaurer une cohérence et une lisibilité qui s'était perdu au fil des réformes.</p>
+    </div>
+</div>
     <script>
 var slideIndex = 1;
 showSlides(slideIndex);

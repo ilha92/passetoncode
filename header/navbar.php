@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
     <title>Passe ton code</title>
     <meta charset="utf-8">
@@ -8,8 +8,8 @@
 
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
 
-    <link rel="stylesheet"
-  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+<link rel="stylesheet"
+href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 </head>
 <body class="centered">
 <header>
@@ -19,6 +19,9 @@
                 <a href="../index.php">
                     <img src="/images/passetoncode-logo.png" width="192" height="40" style="margin-right: 10px;" alt="Logo Passe-ton-code">
                 </a>
+        <div class="menu-toggle">
+            <img src="../images/menu-btn.png" alt="menu hamburger" class="menu-hamburger">
+        </div>
 </header>
         </div>
         <ul class="nav-links">
