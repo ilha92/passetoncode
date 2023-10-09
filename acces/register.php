@@ -52,11 +52,11 @@ if (isset($_POST['valider'])) {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>S'inscrire</title>
+    <title>Passetoncode|S'inscrire</title>
     <link rel="stylesheet" type="text/css" href="../style/style.css">
     <link rel="icon" type="image/x-icon" href="../image/panier.ico">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <script>
+   <script>
         function togglePassword(inputId, btnId) {
             var passwordInput = document.getElementById(inputId);
             var toggleBtn = document.getElementById(btnId);
@@ -70,12 +70,18 @@ if (isset($_POST['valider'])) {
             }
         }
     </script>
+        <style>
+        body {
+            background-image: url('../images/ecranaccueil.jpg');
+            background-repeat: no-repeat; /* Assurez-vous que l'image ne se répète pas */
+            background-size: cover; /* Étirez l'image pour qu'elle couvre toute la page */
+            background-attachment: fixed; /* Fixez l'image en arrière-plan pour qu'elle reste en place lorsque vous faites défiler la page */
+        }
+    </style>
 </head>
 <body>
 <header>
-     <h1 style="display: flex; align-items: center;">
-    <img src="../image/pizza/panier.png" width="80" height="60" alt="Logo Pizza Shop" style="margin-right: 10px;">Cestino Pizza</h1>
-     <?php include_once '../header/navbar.php'; ?>
+     <?php include_once ('../header/navbar.php'); ?>
  </header>
     <br>
     <main>

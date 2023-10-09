@@ -8,9 +8,9 @@
 </head>
 <body>
 <header>
-    <h1>Politique des cookies</h1>
-    <?php require_once('../header/navbar.php'); ?>
-        <?php require_once('footer.php'); ?>
+     <?php require_once('../header/navbar.php'); ?>
+     <?php require_once('/footer.php'); ?>
+        <h1>Politique des cookies</h1>
 </header>
     <main>
         <section class="cookie-policy">

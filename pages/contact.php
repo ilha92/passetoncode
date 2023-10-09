@@ -51,12 +51,7 @@ if (isset($_POST['submit'])) {
     <link rel="icon" type="image/x-icon" href="../image/panier.ico">
 </head>
 <body>
-<header>
-     <h1 style="display: flex; align-items: center;">
-     <img src="../image/pizza/panier.png" width="80" height="60" alt="Logo Pizza Shop" style="margin-right: 10px;">Cestino Pizza</h1>
      <?php include_once '../header/navbar.php'; ?>
-        <?php require_once('../footer.php'); ?>
-</header>
     <main>
         <form action="" method="post">
              <h1>Nous contacter</h1>
@@ -85,5 +80,6 @@ if (isset($_POST['submit'])) {
         </form>
     </main>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <?php require_once('../footer.php'); ?>
 </body>
 </html>

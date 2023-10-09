@@ -1,14 +1,12 @@
 <?php
 session_start();
 ?>
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Passetoncode - Le meilleur site pour passer son code</title>
     <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="icon" type="image/x-icon" href="images/passetoncode-logo.png">
     <style>
         body {
@@ -52,7 +50,7 @@ session_start();
                     break;
             }
         } else {
-            include_once '/pages/accueil.php';
+            include_once 'pages/accueil.php';
         }
         ?>
     </main>
