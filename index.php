@@ -7,7 +7,7 @@ session_start();
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="style/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="icon" type="image/x-icon" href="images/passetoncode-logo.png">
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
     <style>
         body {
             background-image: url('images/ecranaccueil.jpg');
@@ -50,7 +50,7 @@ session_start();
                     break;
             }
         } else {
-            include_once 'pages/accueil.php';
+            include_once 'pages/accueil';
         }
         ?>
     </main>

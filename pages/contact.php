@@ -45,10 +45,10 @@ if (isset($_POST['submit'])) {
 <html>
 <head>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <title>Cestino Pizza - Contact</title>
+    <title>Passetoncode- Contact</title>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="../style/style.css">
-    <link rel="icon" type="image/x-icon" href="../image/panier.ico">
+    <link rel="icon" type="image/x-icon" href="../images/logo.png">
 </head>
 <body>
      <?php include_once '../header/navbar.php'; ?>
@@ -79,7 +79,6 @@ if (isset($_POST['submit'])) {
             <input type="submit" name="submit" value="Envoyer">
         </form>
     </main>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <?php require_once('../footer.php'); ?>
 </body>
 </html>

@@ -5,14 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Politique de Divulgation Responsable - Auto-École XYZ</title>
     <link rel="stylesheet" href="../style/style.css">
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 <body>
-    <header>ç 
-        <h1>Politique de Divulgation Responsable</h1>
+    <header> 
         <?php require_once('../header/navbar.php'); ?>
-        <?php require_once('footer.php'); ?>
     </header>
     <main>
+        <h1>Politique de Divulgation Responsable</h1>
+        
         <section class="disclosure-policy">
             <h2>Politique de Divulgation Responsable</h2>
             <p>Chez Auto-École XYZ, nous sommes engagés à promouvoir la conduite responsable et la sécurité routière. Cette politique de divulgation responsable explique nos pratiques en matière de divulgation d'informations aux élèves et aux clients.</p>
@@ -33,5 +35,7 @@
             <p>Nous encourageons nos élèves et nos clients à nous faire part de leurs commentaires, de leurs préoccupations et de leurs suggestions. Votre opinion est importante pour nous et nous permet de nous améliorer en permanence.</p>
         </section>
     </main>
+
+    <?php require_once('../footer.php'); ?>
 </body>
 </html>
